@@ -11,9 +11,9 @@ The text informing the user of their selection will also change colour to match 
 
 ## Exercise
 
-* Create a `<select>` element.
-* Create a `<p>` element.
-* Iterate through the array of colours.
-* Each element in the array should add a `<option>` to the `<select>`, where the `<option>` is the element in the array.
-* Each `<option>` should have a 'click' event listener to update the contents and colour of the `<p>` with the selected colour.
-* All of your HTML should go inside the `<div>` with the id **"content"**.
+- Create a `<select>` element.
+- Create a `<p>` element.
+- Iterate through the array of colours.
+- Each element in the array should add a `<option>` to the `<select>`, where the `<option>` is the element in the array.
+- Each `<option>` should have a 'click' event listener to update the contents and colour of the `<p>` with the selected colour.
+- All of your HTML should go inside the `<div>` with the id **"content"**.

@@ -5,11 +5,11 @@ The function **todoList** takes an array of todo objects:
 ```js
 const todos = [
   {
-    todo: "Water the plants"
+    todo: "Water the plants",
   },
   {
-    todo: "Wash the car"
-  }
+    todo: "Wash the car",
+  },
 ];
 ```
 
@@ -17,8 +17,8 @@ We want to render a list of todos on the page. When we click on an item we want 
 
 ## Exercise
 
-* You should use an `<ul>` for the list and `<li>` tags for the contents.
-* Each todo should have an event listener for when they are clicked.
-* The event listener should add the line-through style to the todo.
-* The event listener should also remove the line-through style conditionally by checking if the style is already applied.
-* All of your HTML should go inside the `<div>` with the id **"content"**.
+- You should use an `<ul>` for the list and `<li>` tags for the contents.
+- Each todo should have an event listener for when they are clicked.
+- The event listener should add the line-through style to the todo.
+- The event listener should also remove the line-through style conditionally by checking if the style is already applied.
+- All of your HTML should go inside the `<div>` with the id **"content"**.

@@ -10,8 +10,6 @@ Create a list of shopping items on the page.
 
 ## Exercise
 
-* You should use an unordered list: `<ul>`.
-* Each item from the array should be in a `<li>` tag.
-* All of your HTML should go inside the `<div>` with the id **"content"**.
-
-
+- You should use an unordered list: `<ul>`.
+- Each item from the array should be in a `<li>` tag.
+- All of your HTML should go inside the `<div>` with the id **"content"**.
