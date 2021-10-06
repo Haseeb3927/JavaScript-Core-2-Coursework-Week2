@@ -1,7 +1,7 @@
 function populateTodoList(todos) {
   let list = document.getElementById("todo-list");
   // Write your code to create todo list elements with completed and delete buttons here, all todos should display inside the "todo-list" element.
-
+  list.innerHTML = ""; // clears the toDo lists added by HTMl
   todos.forEach((element) => {
     let newLi = document.createElement("li");
     newLi.innerHTML = element.task;
@@ -36,9 +36,12 @@ function populateTodoList(todos) {
     deleteIcon.setAttribute("ariaHidden", "true");
 
     span.appendChild(deleteIcon);
-
+    // this function deletes the tasks which have been mark completed.
+    // To delete any task, we have to remove "if (newLi.style.textDecoration == "line-through") {}"
     deleteIcon.addEventListener("click", () => {
-      list.removeChild(newLi);
+      if (newLi.style.textDecoration == "line-through") {
+        list.removeChild(newLi);
+      }
     });
   });
 }
